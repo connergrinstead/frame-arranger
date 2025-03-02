@@ -31,7 +31,7 @@ void mouseCallback(int event, int x, int y, int flags, void* userdata) {
 }
 
 int main() {
-    img = imread("wall.jpg");
+    img = imread("sample.jpg");
     if (img.empty()) {
         printf("Could not open image.\n");
         return -1;
